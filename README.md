@@ -55,23 +55,26 @@ python agent.py
 or
 uvicorn agent:app --reload --host 0.0.0.0 --port 8080
 
-## 🧪 Test the API
 
+## 🧪 Test the API
 bash
 # Create a task
 curl -X POST "http://localhost:8080/api/v1/project/chat" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "Create task called Final Report due 2024-12-10 assigned to John"}'
 
+
 # List all tasks
 curl -X POST "http://localhost:8080/api/v1/project/chat" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "List all tasks"}'
 
+
 # Complete a task
 curl -X POST "http://localhost:8080/api/v1/project/chat" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "Complete task with ID 1"}'
+
 
 ## Health check
 curl -X GET "http://localhost:8080/api/v1/project/health"
@@ -80,7 +83,8 @@ curl -X GET "http://localhost:8080/api/v1/project/health"
 ## ☁️ Deploy to Cloud Run
 
 bash
-# Build and deploy using gcloud
+
+**Build and deploy using gcloud**
 gcloud builds submit --tag gcr.io/$PROJECT_ID/student-project-coordinator
 
 gcloud run deploy student-project-coordinator \
@@ -91,7 +95,7 @@ gcloud run deploy student-project-coordinator \
   --memory 512Mi \
   --cpu 1
 
-# Or using ADK deploy (if applicable)
+**Or using ADK deploy (if applicable)**
 uvx --from google-adk==1.14.0 \
 adk deploy cloud_run \
   --project=$PROJECT_ID \
