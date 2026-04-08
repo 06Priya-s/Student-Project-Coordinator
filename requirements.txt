@@ -1,0 +1,14 @@
+google-adk==1.14.0
+fastapi
+uvicorn
+google-cloud-datastore
+google-cloud-logging
+python-dotenv
+wikipedia
+google-cloud-bigquery
+sqlalchemy
+mcp>=1.8.0
+langchain
+langchain-core
+langchain-community
+pydantic
