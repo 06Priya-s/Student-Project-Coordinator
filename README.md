@@ -55,7 +55,7 @@ python agent.py
 or
 uvicorn agent:app --reload --host 0.0.0.0 --port 8080
 
-##🧪 Test the API
+## 🧪 Test the API
 
 bash
 # Create a task
