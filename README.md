@@ -45,7 +45,7 @@ https://spc-agent-941910953451.europe-west1.run.app/
 
 ## ⚙️ Installation
 
-git clone https://github.com/abhishekmsm51w-star/student-project-coordinator.git
+git clone https://github.com/06Priya-s/Student-Project-Coordinator.git
 cd student-project-coordinator
 pip install -r requirements.txt 
 
