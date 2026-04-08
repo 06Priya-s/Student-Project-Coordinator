@@ -37,6 +37,9 @@ An intelligent AI-powered multi-agent system that helps student teams manage gro
 ├── .env # Environment variables
 └── README.md # Project documentation</pre>
 
+## Live Demo Link: https://1drv.ms/v/c/17270035d5783350/IQAbH5EF_QF3Tr5aRZzknEZjAbDj4s2LYr4MIfpmPQ1LunQ?e=D5cqEa
+
+## Live App URL: https://spc-agent-941910953451.europe-west1.run.app/
 
 ## ⚙️ Installation
 
