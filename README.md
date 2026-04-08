@@ -124,12 +124,12 @@ The agent will create tasks, list tasks, complete tasks, or save notes
 
 Use /api/v1/project/health for monitoring
 
-## Example Prompts
-text
+## Example Prompt
+<pre>
 Create task called Abstract due 2024-12-10 assigned to John
 List all tasks
 Complete task with ID 1
-Add note Professor extended deadline as Class Update
+Add note Professor extended deadline as Class Update</pre>
 
 
 ## 🤝 Contributing
